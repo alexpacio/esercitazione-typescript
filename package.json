@@ -1,0 +1,16 @@
+{
+  "author": "Netter Team",
+  "name": "cat-dog-exercise",
+  "version": "1.0.0",
+  "description": "Simple exercise for cats and dogs",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest",
+    "rimraf": "latest"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "compile": "rimraf dist && tsc -p ./tsconfig.json"
+  }
+}
